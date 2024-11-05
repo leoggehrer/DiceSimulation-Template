@@ -28,6 +28,12 @@ werden:
 
 ![Abbildung](img/image01.png)
 
+Schnittstelle `IObserver`
+
+|   |   |   |
+|---|---|---|
+| void Notify(...) | Diese Methode wird vom `Observable`-Objekt aufgerufen, wenn sich sein Zustand geaendert hat. |   |
+
 Klasse `Dice`
 
 Diese Klasse soll einen Würfel darstellen und simulieren.
